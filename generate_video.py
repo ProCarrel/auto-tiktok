@@ -61,4 +61,4 @@ out_name = f"tiktok_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.mp4"
 out_path = os.path.join(OUTPUT_DIR, out_name)
 video.write_videofile(out_path, codec="libx264", audio_codec="aac", threads=2, verbose=False)
 
-print("VIDEO_CREATED:", out_path) 
+print("VIDEO_CREATED:", out_path)  
